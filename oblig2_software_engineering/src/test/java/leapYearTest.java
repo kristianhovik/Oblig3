@@ -27,6 +27,7 @@ class leapYearTest {
         var leapYear = new leapYear();
         assertTrue(leapYear.isLeapYear(400));
         assertFalse(leapYear.isLeapYear(100));
+        assertTrue(leapYear.isLeapyear(400));
     }
 
 }
